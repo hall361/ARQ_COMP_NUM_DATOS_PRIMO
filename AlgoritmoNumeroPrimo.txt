@@ -1,13 +1,17 @@
-Función esPrimo(número)
-  Si número <= 1 entonces
-    Retorna Falso
-  Fin Si
+ALGORITMO ES_PRIMO
 
-  Para i desde 2 hasta raíz cuadrada de número
-    Si número es divisible por i entonces
-      Retorna Falso
-    Fin Si
-  Fin Para
+ENTRADA: num (número entero)
 
-  Retorna Verdadero
-Fin Función
+1. SI num <= 1 ENTONCES
+   SALIR
+
+2. SI num = 2 ENTONCES
+   SALIR
+
+3. PARA i <- 2 HASTA num-1 HACER
+   SI num MOD i = 0 ENTONCES
+     SALIR
+
+4. SALIR
+
+FIN ALGORITMO
