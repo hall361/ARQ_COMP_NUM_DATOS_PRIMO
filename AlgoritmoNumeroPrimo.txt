@@ -1,0 +1,13 @@
+Función esPrimo(número)
+  Si número <= 1 entonces
+    Retorna Falso
+  Fin Si
+
+  Para i desde 2 hasta raíz cuadrada de número
+    Si número es divisible por i entonces
+      Retorna Falso
+    Fin Si
+  Fin Para
+
+  Retorna Verdadero
+Fin Función
