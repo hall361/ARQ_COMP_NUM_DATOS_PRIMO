@@ -1,3 +1,5 @@
+package Java;
+
 public class AlgoritmoNumeroPrimo {
     public static boolean esPrimo(int num) {
         if (num <= 1) {
